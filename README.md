@@ -1,18 +1,22 @@
-## Preview Code
+# Rock, Paper, Scissors Game
 
-Here is a small preview of the core game logic for the "Rock, Paper, Scissors" game:
+A simple implementation of the classic Rock, Paper, Scissors game in Python.
 
-```python
-while True:
-    user1 = input("Choose what you want to throw: ")
-    user2 = input("Choose what you want to throw: ")
+## How to Play
 
-    if user1 == "Scissor" and user2 == "Paper":
-        print("User 1 wins")
-    elif user1 == user2:
-        print("It's a draw!")
-    elif user1 == "Stone" and user2 == "Scissor":
-        print("User 1 wins")
-    elif user1 == "Paper" and user2 == "Stone":
-        print("User 2 wins")
-    # More game conditions...
+- You play against the computer (or another player).
+- Choose from "Stone", "Paper", or "Scissor".
+- The game will tell you who won, or if it's a draw.
+- You can choose to play multiple rounds or quit by typing "no".
+
+## Requirements
+
+- Python 3.x
+
+## How to Run
+
+1. Clone this repository to your local machine.
+2. Run the script using Python:
+   ```bash
+   python rock_paper_scissors.py
+
